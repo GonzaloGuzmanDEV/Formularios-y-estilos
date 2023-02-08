@@ -1,0 +1,259 @@
+/* Fuentes */
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+
+    background: #161717;
+    display: flex;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    
+}
+
+/* Styles Container */
+
+.container{
+
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+
+}
+
+.h2-cs{
+
+    color: #ffffff;
+}
+
+.container-icons{
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.google-icon{
+
+    width: 250px;
+    height: 40px;
+    background-color:rgb(23, 72, 206);
+    border-radius: 5%;
+    display: flex;
+    align-items: center;
+}
+
+.google-picture{
+
+    width: 35px;
+    height: 35px;
+    display: flex;
+    margin-left: 2px;
+    border-radius: 10%;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+
+
+}
+
+.google-picture img{
+
+    width: 50%;
+}
+
+.register-google{
+
+    color: #ffffff;
+    margin-left: 15px;
+    letter-spacing: 1px;
+    width: 250px;
+}
+
+.twitter-icon{
+
+    width: 35px;
+    height: 35px;
+    background: grey;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.twitter-icon picture{
+
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.twitter-picture img{
+
+    max-width: 25px;
+}
+
+.or-div{
+
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 15px;
+}
+
+.or-div hr{
+
+    flex-grow: 1;
+    height: 0;
+}
+
+.or-div p{
+
+    color: #ffffff;
+}
+
+.name-username{
+
+    display: flex;
+}
+
+#name, #username{
+
+    width: 130px;
+    background: #212121;
+    border: none;
+    border-radius: 5%;
+    color: #ffffff;
+    margin-top: 5px;
+    height: 20px;
+}
+
+#name:hover{
+
+    background: #454045;
+}
+
+#username:hover{
+
+    background: #454045;
+}
+
+#label-name{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#label-username{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.email-container{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+#label-email{
+
+    display: flex;
+    flex-direction: column;
+}
+
+#email{
+
+    background: #212121;
+    border: none;
+    border-radius: 5%;
+    color: #ffffff;
+    margin-top: 5px;
+    height: 20px;
+
+}
+
+#email:hover{
+
+    background: #454045;
+}
+
+.password-container{
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+#label-password{
+
+    display: flex;
+    flex-direction: column;
+}
+
+#password{
+
+    background: #212121;
+    border: none;
+    border-radius: 5%;
+    color: #ffffff;
+    margin-top: 5px;
+    height: 20px;
+}
+
+#password:hover{
+
+    background: #454045;
+}
+
+.terms-container{
+
+    text-align: center;
+}
+
+.terms-container p{
+
+    font-size: 8px;
+}
+
+#label-checkbox{
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 10px;
+    width: 100%;
+}
+
+.button-container{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#create-button{
+
+    width: 250px;
+    background-color: #fd35aa;
+    border: none;
+    border-radius: 5%;
+    padding: 5px;
+}
+
+
+
